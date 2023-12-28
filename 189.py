@@ -1,4 +1,6 @@
 class Solution:
+    # O(n) time complexity
+    # O(1) space complexity
     def rotate(self, nums: List[int], k: int) -> None:
         """
         Do not return anything, modify nums in-place instead.

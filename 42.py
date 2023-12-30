@@ -1,5 +1,6 @@
 class Solution:
-    # Can be improved by keeping track of maxLeft and maxRight, this would eliminate having to remove overused spaces.
+    # The solution is O(n), which is optimal,
+    # Can be improved by keeping track of maxLeft and maxRight, this would eliminate having to remove overused spaces. (But big O will not change in the optimization)
     def trap(self, height: List[int]) -> int:
         left = 0
         right = len(height)-1
